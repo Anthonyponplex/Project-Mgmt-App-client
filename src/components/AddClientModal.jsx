@@ -56,7 +56,7 @@ export default function AddClientModal() {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="modal-title fs-5" id="exampleModalLabel">
+              <h1 className="modal-title fs-5" id="addClientModalLabel">
                 Add Client
               </h1>
               <button
@@ -101,7 +101,7 @@ export default function AddClientModal() {
                 <button
                   type="submit"
                   data-bs-dismiss="modal"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary mt-3"
                 >
                   Submit
                 </button>
